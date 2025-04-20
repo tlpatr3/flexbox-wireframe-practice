@@ -4,16 +4,52 @@ body {
     margin: 0;
     background-color: grey;
     font-family: sans-serif;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 320px;
     margin: 20px auto;
-}
-
-
-}
-}
+  }
+  
+  header,
+  article,
+  aside,
+  footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  header {
+    background-color: rgb(101, 22, 101);
+  }
+  
+  .main-content {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  article {
+    background-color: rgb(227, 26, 140);
+  }
+  
+  aside {
+    background-color: rgb(17, 17, 98);
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color: rgb(232, 133, 62);
+    margin-top: 10px;
+  }
